@@ -102,5 +102,8 @@ __WordCloud:__ Word Cloud is a data visualization technique used for representin
 Significant textual data points can be highlighted using a word cloud.
 
 ## Tweets Classification
-__Word2vec:__ Is one algorithm for learning a word embedding from a text corpus.<br>Learning a word embedding from text involves loading and organizing the text into sentences and providing them to the constructor of a new Word2Vec() instance.<br>
-__The K-means clusterer:__ Starts with k arbitrary chosen means then allocates each vector to the cluster with the closest mean. It then recalculates the means of each cluster as the centroid of the vectors in the cluster. This process repeats until the cluster memberships stabilise.
+__The K-means clusterer:__ Starts with k arbitrary chosen means then allocates each vector to the cluster with the closest mean. It then recalculates the means of each cluster as the centroid of the vectors in the cluster. This process repeats until the cluster memberships stabilise.<br>
+The main element of the algorithm works by a two-step process:
+- The expectation step assigns each data point to its nearest centroid.<br>
+- The maximization step computes the mean of all the points for each cluster and sets the new centroid.<br>
+__sum of the squared error (SSE):__ Determine the quality of the cluster assignments after the centroids converge. <br>
