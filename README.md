@@ -62,8 +62,8 @@ api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 </code></pre>
 <p>Search Method:</p>
 	API.search :Returns a collection of relevant Tweets matching a specified query.<br>
-### Tweets Preprocessing<br>
-Since we are dealing with tweets, we need to do specific tweet text cleaning along with normal text pre-processing. 
+### Tweets Preprocessing
+<p>Since we are dealing with tweets, we need to do specific tweet text cleaning along with normal text pre-processing. </p>
 <p>Use of tweet-preprocessor:</p>	
 Preprocessor is a preprocessing library for tweet data written in Python.<br>When building Machine Learning systems based on tweet data, a preprocessing is required. 
 This library makes it easy to clean, parse or tokenize the tweets.
@@ -95,7 +95,9 @@ The words which have the same meaning but have some variation according to the c
 <p>Lemmatization :</p> The algorithmic process of finding the lemma of a word depending on their meaning.<br>
 It helps in returning the base or dictionary form of a word, which is known as the lemma using PorterStemmer().<br>
 ### Lemmatization better than Stemming
-Stemming algorithm works by cutting the suffix from the word. In a broader sense cuts either the beginning or end of the word.<br>
-On the contrary, Lemmatization is a more powerful operation, and it takes into consideration morphological analysis of the words.
+<p>Stemming algorithm works by cutting the suffix from the word. In a broader sense cuts either the beginning or end of the word.<br>
+On the contrary, Lemmatization is a more powerful operation, and it takes into consideration morphological analysis of the words.</p>
 <p>WordCloud:</p> Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance.<br>
 Significant textual data points can be highlighted using a word cloud.
+
+## Tweets Classification
