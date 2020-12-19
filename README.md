@@ -1,5 +1,5 @@
 ![alt text](https://media-exp1.licdn.com/dms/image/C4D0BAQGLbtKq3h4rnA/company-logo_200_200/0/1550065127463?e=2159024400&v=beta&t=L-UwZzZr5SPPC-Rr9PTSpD7UgAVJ5gjb5gFiaNwaWNE) 
-<h1 align="center">**Tweets Classification**</h1>
+<h1 align="center">Tweets Classification</h1>
 
 <div align="center">
   <strong>Data Mining Project</strong>
@@ -30,7 +30,7 @@
 Twitter allows third-party developers partial access to its services.<br> ![alt text](https://cdn0.iconfinder.com/data/icons/twitter-ui-flat/48/Twitter_UI-02-512.png)<br>Apps created by programmers can be integrated with Twitter by means of APIs.<br>
 Twitter API is an interface through which a website or an app can interact with Twitter. It allows access to the main features of the platform.<br>
 Basically, there are three levels of data access which correspond to the levels of your project’s growth: Standard, Premium and Enterprise.<br> 
-	### Steps
+### Steps
 1. Create a free Twitter user account
 Head over to  [Twitter](https://twitter.com) and register for a free account.
 2. Apply for a Developer Account 
@@ -38,14 +38,14 @@ Create a project and add a new app in the Twitter Developer portal.
 During this process, Twitter will generate an API Key and API Secret Key for your application.
 Create new application [new Application](https://dev.twitter.com/apps/new)
 3. Click on “Connect to API” and begin filling out all the required API Key fields and parameters.
-	### Key fields
+### Key fields
 In order for an app to read and write Direct Messages on behalf of a user, the user must grant permission to the app to do so.<br> When a user grants permission, user tokens generated for that user are provided in API requests.<br>	
 	  * consumerKey<br>
 	  * consumerSecret<br>
 	  * accessTokenKey<br>
 	  * accessTokenSecret<br>
 ## Tweets Collection and Preprocessing
-   ### Tweets Collection
+### Tweets Collection
 <p>Import the Twitter library and enter the credentials as follows:</p>
 <pre style="padding-top: 0;" tabindex="0"><code style="padding-top: 0;">
 import twitter
@@ -61,8 +61,8 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 </code></pre>
 <p>Search Method:</p>
-	API.search :Returns a collection of relevant Tweets matching a specified query.
-   ### Tweets Preprocessing
+	API.search :Returns a collection of relevant Tweets matching a specified query.<br>
+### Tweets Preprocessing
 Since we are dealing with tweets, we need to do specific tweet text cleaning along with normal text pre-processing. 
 <p>Use of tweet-preprocessor:</p>	
 Preprocessor is a preprocessing library for tweet data written in Python.<br>When building Machine Learning systems based on tweet data, a preprocessing is required. 
@@ -94,7 +94,7 @@ is a subfield of artificial intelligence, in which its depth involves the intera
 The words which have the same meaning but have some variation according to the context or sentence are normalized.
 <p>Lemmatization :</p> The algorithmic process of finding the lemma of a word depending on their meaning.<br>
 It helps in returning the base or dictionary form of a word, which is known as the lemma using PorterStemmer().<br>
-	### Lemmatization better than Stemming
+### Lemmatization better than Stemming
 Stemming algorithm works by cutting the suffix from the word. In a broader sense cuts either the beginning or end of the word.<br>
 On the contrary, Lemmatization is a more powerful operation, and it takes into consideration morphological analysis of the words.
 <p>WordCloud:</p> Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance.<br>
