@@ -28,7 +28,8 @@ Twitter allows third-party developers partial access to its services.<br> Apps c
 Twitter API is an interface through which a website or an app can interact with Twitter. It allows access to the main features of the platform.<br>
 Basically, there are three levels of data access which correspond to the levels of your project’s growth: Standard, Premium and Enterprise. 
 	
-![alt text](https://cdn0.iconfinder.com/data/icons/twitter-ui-flat/48/Twitter_UI-02-512.png)
+![alt text](https://cdn0.iconfinder.com/data/icons/twitter-ui-flat/48/Twitter_UI-02-512.png)<br>
+
 	### Steps
 1. Create a free Twitter user account
 	Head over to  [Twitter](https://twitter.com) and register for a free account.
