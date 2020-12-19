@@ -7,5 +7,4 @@ pandas == 1.0.5
 tweepy==3.9.0
 pandas==1.0.5
 nltk==3.5
-re==2.2.1
 seaborn==0.10.1
