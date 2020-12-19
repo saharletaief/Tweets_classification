@@ -32,11 +32,11 @@ Twitter API is an interface through which a website or an app can interact with 
 Basically, there are three levels of data access which correspond to the levels of your project’s growth: Standard, Premium and Enterprise. 
 	### Steps
 1. Create a free Twitter user account
-	Head over to  [Twitter](https://twitter.com) and register for a free account.
+Head over to  [Twitter](https://twitter.com) and register for a free account.
 2. Apply for a Developer Account 
 Create a project and add a new app in the Twitter Developer portal. 
 During this process, Twitter will generate an API Key and API Secret Key for your application.
-	Create new application [new Application](https://dev.twitter.com/apps/new)
+Create new application [new Application](https://dev.twitter.com/apps/new)
 3. Click on “Connect to API” and begin filling out all the required API Key fields and parameters.
 	### Key fields
 In order for an app to read and write Direct Messages on behalf of a user, the user must grant permission to the app to do so.<br> When a user grants permission, user tokens generated for that user are provided in API requests.<br>	
@@ -94,7 +94,7 @@ is a subfield of artificial intelligence, in which its depth involves the intera
 The words which have the same meaning but have some variation according to the context or sentence are normalized.
 <p>Lemmatization :</p> The algorithmic process of finding the lemma of a word depending on their meaning.<br>
 It helps in returning the base or dictionary form of a word, which is known as the lemma using PorterStemmer().<br>
-   ### Lemmatization better than Stemming
+	### Lemmatization better than Stemming
 Stemming algorithm works by cutting the suffix from the word. In a broader sense cuts either the beginning or end of the word.<br>
 On the contrary, Lemmatization is a more powerful operation, and it takes into consideration morphological analysis of the words.
 <p>WordCloud:</p> Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance.<br>
