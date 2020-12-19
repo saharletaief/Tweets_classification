@@ -9,7 +9,7 @@
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Get Twitter API Key](#Get Twitter API Key)
+- [Get Twitter API Key](#GetTwitterAPIKey)
      -[Steps](#Steps)
      -[Key fields](#Key fields)
 - [Tweets Collection and Preprocessing](#Tweets Collection and Preprocessing)
