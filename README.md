@@ -1,5 +1,5 @@
 ![alt text](https://media-exp1.licdn.com/dms/image/C4D0BAQGLbtKq3h4rnA/company-logo_200_200/0/1550065127463?e=2159024400&v=beta&t=L-UwZzZr5SPPC-Rr9PTSpD7UgAVJ5gjb5gFiaNwaWNE) 
-<h1 align="center">Tweets Classification</h1>
+<h1 align="center">**Tweets Classification**</h1>
 
 <div align="center">
   <strong>Data Mining Project</strong>
@@ -29,7 +29,7 @@
 ## Get Twitter API Key
 Twitter allows third-party developers partial access to its services.<br> ![alt text](https://cdn0.iconfinder.com/data/icons/twitter-ui-flat/48/Twitter_UI-02-512.png)<br>Apps created by programmers can be integrated with Twitter by means of APIs.<br>
 Twitter API is an interface through which a website or an app can interact with Twitter. It allows access to the main features of the platform.<br>
-Basically, there are three levels of data access which correspond to the levels of your project’s growth: Standard, Premium and Enterprise. 
+Basically, there are three levels of data access which correspond to the levels of your project’s growth: Standard, Premium and Enterprise.<br> 
 	### Steps
 1. Create a free Twitter user account
 Head over to  [Twitter](https://twitter.com) and register for a free account.
