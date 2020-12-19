@@ -9,10 +9,12 @@
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Get Twitter API Key](#GetTwitterAPIKey)
-     -[Steps](#Steps)
-     -[Key fields](#Key fields)
-- [Tweets Collection and Preprocessing](#Tweets Collection and Preprocessing)
+- [Get Twitter API Key](#GetTwitterAPIKey)<br>
+	-[Steps](#Steps)	
+	-[Key fields](#Keyfields)
+- [Tweets Collection and Preprocessing](#TweetsCollectionandPreprocessing)
+	-[Tweets Collection](#TweetsCollection)
+	-[Tweets Preprocessing](#Tweets Preprocessing)
 - [NLP(Natural LanguageProcessing)](#NLP(Natural LanguageProcessing))
 - [Tweets Classification](#Tweets Classification)
 
