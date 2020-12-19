@@ -64,8 +64,8 @@ api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 	API.search :Returns a collection of relevant Tweets matching a specified query.
 ### Tweets Preprocessing
 <p>Since we are dealing with tweets, we need to do specific tweet text cleaning along with normal text pre-processing. </p>
-* Use of tweet-preprocessor:	<br>
-__Preprocessor__ is a preprocessing library for tweet data written in Python.<br>When building Machine Learning systems based on tweet data, a preprocessing is required. 
+-Use of tweet-preprocessor: <br>
+__Preprocessor:__  is a preprocessing library for tweet data written in Python.<br>When building Machine Learning systems based on tweet data, a preprocessing is required. 
 This library makes it easy to clean, parse or tokenize the tweets.
 
 <pre style="padding-top: 0;" tabindex="0"><code style="padding-top: 0;">
@@ -76,7 +76,7 @@ Basic cleaning: delete URL's,Mentions,Hashtags,Emojis,Smileys
 <pre style="padding-top: 0;" tabindex="0"><code style="padding-top: 0;">
  p.clean()
 </code></pre> 
-* Use of Gensim: <br>
+- Use of Gensim: <br>
 Gensim is an NLP Python framework a Python library for topic modelling, document indexing and similarity retrieval with large corpora. <br>
 Target audience is the natural language processing (NLP), we use ir here to remove_stopwords.
 <pre style="padding-top: 0;" tabindex="0"><code style="padding-top: 0;">
