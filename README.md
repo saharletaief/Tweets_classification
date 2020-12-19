@@ -21,6 +21,7 @@
 - [Natural LanguageProcessing](#NaturalLanguageProcessing)<br>
 - [Tweets Classification](#TweetsClassification)<br>
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/saharletaief/Tweets_classification/main)
 
 
 ## Introduction
