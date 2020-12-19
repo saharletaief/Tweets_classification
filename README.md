@@ -72,7 +72,7 @@ This library makes it easy to clean, parse or tokenize the tweets.
 !pip install tweet-preprocessor
 import preprocessor as p
 </code></pre>
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmIjD1ABEZ_HdhUio9oJ3BKWvMG2qD0nYsIA&usqp=CAU) Basic cleaning: delete URL's,Mentions,Hashtags,Emojis,Smileys
+Basic cleaning: delete URL's,Mentions,Hashtags,Emojis,Smileys
 <pre style="padding-top: 0;" tabindex="0"><code style="padding-top: 0;">
  p.clean()
 </code></pre> 
@@ -93,8 +93,8 @@ is a subfield of artificial intelligence, in which its depth involves the intera
 <p>Stemming :</p> Stemming is a kind of normalization for words,where a set of words in a sentence are converted into a sequence to shorten its lookup. <br>
 The words which have the same meaning but have some variation according to the context or sentence are normalized.
 <p>Lemmatization :</p> The algorithmic process of finding the lemma of a word depending on their meaning.<br>
-It helps in returning the base or dictionary form of a word, which is known as the lemma using PorterStemmer().<br>
-	#### Lemmatization better than Stemming
+It helps in returning the base or dictionary form of a word, which is known as the lemma using PorterStemmer().
+   #### Lemmatization better than Stemming
 Stemming algorithm works by cutting the suffix from the word. In a broader sense cuts either the beginning or end of the word.<br>
 On the contrary, Lemmatization is a more powerful operation, and it takes into consideration morphological analysis of the words.
 <p>WordCloud:</p>Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance.<br>
