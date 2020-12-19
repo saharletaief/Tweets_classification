@@ -4,6 +4,9 @@
 <div align="center">
   <strong>Data Mining Project</strong>
 </div>
+<div align="center">
+  <strong>Sahar letaief 3DNI1</strong>
+</div>
 
 <br />
 
@@ -29,7 +32,6 @@ Twitter API is an interface through which a website or an app can interact with 
 Basically, there are three levels of data access which correspond to the levels of your project’s growth: Standard, Premium and Enterprise. 
 	
 ![alt text](https://cdn0.iconfinder.com/data/icons/twitter-ui-flat/48/Twitter_UI-02-512.png)<br>
-
 	### Steps
 1. Create a free Twitter user account
 	Head over to  [Twitter](https://twitter.com) and register for a free account.
@@ -45,7 +47,7 @@ In order for an app to read and write Direct Messages on behalf of a user, the u
 	  * accessTokenKey
 	  * accessTokenSecret
 ## Tweets Collection and Preprocessing
-	### Tweets Collection
+   ### Tweets Collection
 <p>Import the Twitter library and enter the credentials as follows:</p>
 <pre style="padding-top: 0;" tabindex="0"><code style="padding-top: 0;">
 import twitter
@@ -62,7 +64,7 @@ api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 </code></pre>
 <p>Search Method:</p>
 	API.search :Returns a collection of relevant Tweets matching a specified query.
-	### Tweets Preprocessing
+   ### Tweets Preprocessing
 Since we are dealing with tweets, we need to do specific tweet text cleaning along with normal text pre-processing. 
 <p>Use of tweet-preprocessor:</p>	
 Preprocessor is a preprocessing library for tweet data written in Python.<br>When building Machine Learning systems based on tweet data, a preprocessing is required. 
@@ -93,7 +95,7 @@ is a subfield of artificial intelligence, in which its depth involves the intera
 <p>Stemming :</p> Stemming is a kind of normalization for words,where a set of words in a sentence are converted into a sequence to shorten its lookup. <br>
 The words which have the same meaning but have some variation according to the context or sentence are normalized.
 <p>Lemmatization :</p> The algorithmic process of finding the lemma of a word depending on their meaning.<br>
-It helps in returning the base or dictionary form of a word, which is known as the lemma using PorterStemmer().
+It helps in returning the base or dictionary form of a word, which is known as the lemma using PorterStemmer().<br>
 	#### Lemmatization better than Stemming
 Stemming algorithm works by cutting the suffix from the word. In a broader sense cuts either the beginning or end of the word.<br>
 On the contrary, Lemmatization is a more powerful operation, and it takes into consideration morphological analysis of the words.
