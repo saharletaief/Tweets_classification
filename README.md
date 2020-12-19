@@ -24,7 +24,7 @@
 
 
 ## Introduction
-
+Most of the data we encounter in the real world is unstructured. A perfect example of unstructured data, tweets,it contains a vast amount of information that isn’t structured in a way a computer can easily process.<br>the cleaning process od tweets goes a long way toward rendering the text understandable to a computer, at the end the computer must deal with numbers, not words.<br>The process of converting words to numbers is called “vectorizing” and and bu the end we use K-means, a relatively simple machine learning algorithm, to extract topics from similar tweets. 
 
 ## Get Twitter API Key
 Twitter allows third-party developers partial access to its services.<br> ![alt text](https://cdn0.iconfinder.com/data/icons/twitter-ui-flat/48/Twitter_UI-02-512.png)<br>Apps created by programmers can be integrated with Twitter by means of APIs.<br>
@@ -101,3 +101,5 @@ __WordCloud:__ Word Cloud is a data visualization technique used for representin
 Significant textual data points can be highlighted using a word cloud.
 
 ## Tweets Classification
+__Word2vec:__ Is one algorithm for learning a word embedding from a text corpus.<br>Learning a word embedding from text involves loading and organizing the text into sentences and providing them to the constructor of a new Word2Vec() instance.<br>
+__The K-means clusterer:__ Starts with k arbitrary chosen means then allocates each vector to the cluster with the closest mean. It then recalculates the means of each cluster as the centroid of the vectors in the cluster. This process repeats until the cluster memberships stabilise.
