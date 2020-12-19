@@ -40,10 +40,10 @@ Create new application [new Application](https://dev.twitter.com/apps/new)
 3. Click on “Connect to API” and begin filling out all the required API Key fields and parameters.
 ### Key fields
 In order for an app to read and write Direct Messages on behalf of a user, the user must grant permission to the app to do so.<br> When a user grants permission, user tokens generated for that user are provided in API requests.<br>	
-	  * consumerKey<br>
-	  * consumerSecret<br>
-	  * accessTokenKey<br>
-	  * accessTokenSecret<br>
+	  - consumerKey<br>
+	  - consumerSecret<br>
+	  - accessTokenKey<br>
+	  - accessTokenSecret<br>
 ## Tweets Collection and Preprocessing
 ### Tweets Collection
 <p>Import the Twitter library and enter the credentials as follows:</p>
@@ -62,7 +62,7 @@ api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 </code></pre>
 <p>Search Method:</p>
 	API.search :Returns a collection of relevant Tweets matching a specified query.<br>
-### Tweets Preprocessing
+### Tweets Preprocessing<br>
 Since we are dealing with tweets, we need to do specific tweet text cleaning along with normal text pre-processing. 
 <p>Use of tweet-preprocessor:</p>	
 Preprocessor is a preprocessing library for tweet data written in Python.<br>When building Machine Learning systems based on tweet data, a preprocessing is required. 
