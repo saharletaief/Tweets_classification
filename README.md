@@ -14,9 +14,9 @@
 	-[Key fields](#Keyfields)<br>
 - [Tweets Collection and Preprocessing](#TweetsCollectionandPreprocessing)<br>
 	-[Tweets Collection](#TweetsCollection)<br>
-	-[Tweets Preprocessing](#Tweets Preprocessing)<br>
-- [Natural LanguageProcessing](#Natural LanguageProcessing)<br>
-- [Tweets Classification](#Tweets Classification)<br>
+	-[Tweets Preprocessing](#TweetsPreprocessing)<br>
+- [Natural LanguageProcessing](#NaturalLanguageProcessing)<br>
+- [Tweets Classification](#TweetsClassification)<br>
 
 
 
