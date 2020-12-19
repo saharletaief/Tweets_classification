@@ -61,11 +61,11 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 </code></pre>
 <p>Search Method:</p>
-	API.search :Returns a collection of relevant Tweets matching a specified query.<br>
+	API.search :Returns a collection of relevant Tweets matching a specified query.
 ### Tweets Preprocessing
 <p>Since we are dealing with tweets, we need to do specific tweet text cleaning along with normal text pre-processing. </p>
 <p>Use of tweet-preprocessor:</p>	
-Preprocessor is a preprocessing library for tweet data written in Python.<br>When building Machine Learning systems based on tweet data, a preprocessing is required. 
+__Preprocessor__ is a preprocessing library for tweet data written in Python.<br>When building Machine Learning systems based on tweet data, a preprocessing is required. 
 This library makes it easy to clean, parse or tokenize the tweets.
 
 <pre style="padding-top: 0;" tabindex="0"><code style="padding-top: 0;">
@@ -89,15 +89,15 @@ from gensim.parsing.preprocessing import remove_stopwords
 In natural language processing (NLP), the goal is to make computers understand the unstructured text and retrieve meaningful pieces
 of information from it. <br>Natural language Processing (NLP) 
 is a subfield of artificial intelligence, in which its depth involves the interactions between computers and humans. <br>
-<p>Tokenization : </p> is the process of tokenizing or splitting a string, text into a list of tokens.
-<p>Stemming :</p> Stemming is a kind of normalization for words,where a set of words in a sentence are converted into a sequence to shorten its lookup. <br>
+__Tokenization:__ is the process of tokenizing or splitting a string, text into a list of tokens.
+__Stemming:__Stemming is a kind of normalization for words,where a set of words in a sentence are converted into a sequence to shorten its lookup. <br>
 The words which have the same meaning but have some variation according to the context or sentence are normalized.
-<p>Lemmatization :</p> The algorithmic process of finding the lemma of a word depending on their meaning.<br>
+__Lemmatization:__ The algorithmic process of finding the lemma of a word depending on their meaning.<br>
 It helps in returning the base or dictionary form of a word, which is known as the lemma using PorterStemmer().<br>
 ### Lemmatization better than Stemming
-<p>Stemming algorithm works by cutting the suffix from the word. In a broader sense cuts either the beginning or end of the word.<br>
-On the contrary, Lemmatization is a more powerful operation, and it takes into consideration morphological analysis of the words.</p>
-<p>WordCloud:</p> Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance.<br>
+Stemming algorithm works by cutting the suffix from the word. In a broader sense cuts either the beginning or end of the word.<br>
+On the contrary, Lemmatization is a more powerful operation, and it takes into consideration morphological analysis of the words.
+__WordCloud:__ Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance.<br>
 Significant textual data points can be highlighted using a word cloud.
 
 ## Tweets Classification
